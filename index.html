@@ -4,14 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Penguin fashion</title>
+    <title>Penguin fashion :: Imran</title>
     <!-- favicon  -->
     <link rel="shortcut icon" href="icons/Group 33072.png" type="image/x-icon">
     <!-- tailwind Css -->
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-    <header class="bg-yellow-100">
+    <header class="bg-yellow-100 pt-7">
+        <!-- navbar -->
+        <nav class="container lg:w-3/4 mx-auto items-center relative flex items-center justify-between sm:h-10" aria-label="Global">
+            <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
+                <div class="flex items-center justify-between w-full md:w-auto">
+                    <a href="#">
+                        <span class="sr-only">Penguin Fashion</span>
+                        <img class="h-8 w-auto sm:h-10" src="icons/Group 33072.png">
+                    </a>
+                    <div class="mr-2 flex items-center md:hidden">
+                        <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
+                            <span class="sr-only">Open main menu</span>
+                            <!-- Heroicon name: outline/menu -->
+                            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+                <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Home</a>
+              
+                <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Product</a>
+              
+                <a href="#" class="font-medium text-gray-500 hover:text-gray-900">About Us</a>
+              
+                <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Contact Us</a>
+            </div>
+        </nav>
         <!-- banner -->
         <section class="container mx-auto lg:flex justify-evenly items-center lg:py-32">
             <div class="grid gap-y-4 p-3">
@@ -183,7 +212,7 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="my-8">
         <p class="text-center">Copyright 2021 & Developed By <span class="text-blue-400">S Imran Ahmed</span></p>
     </footer>
 </body>
